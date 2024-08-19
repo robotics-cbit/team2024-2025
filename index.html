@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotics and Innovation CBIT</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="background" id="background"></div>
+  <div class="content" id="page1">
+    <div class="title">
+      <h2>Robotics and Innovation CBIT</h2>
+      <h3>Welcome to our club</h3>
+    </div>
+    <div class="info" id="info">
+      <p>Welcome to the Robotics and Innovation Club at CBIT. Our club is dedicated to fostering creativity and innovation in the field of robotics. We provide a platform for students to learn, build, and showcase their robotic projects.</p>
+    </div>
+    <div class="box" id="profile_button" onclick="showProfiles()">Click to see the Team</div>
+  </div>
+
+  <div class="page_2" id="page2" style="display:none;">
+    <div class="back-box" onclick="back()">
+      <img src="exit-icon.png" alt="Back">
+    </div>
+    <div class="profile_box" id="profile_nagateja" onclick="showModal('nagateja_img')">
+      <img src="image2.jpg" alt="Nagateja" id="nagateja_img">
+      <div class="name">Nagateja Adulapuram</div>
+      <div class="role">President</div>
+      <div class="know-more" onclick="showDetails(event, 'nagateja_achievements')">Know more</div>
+      <div class="achievements" id="nagateja_achievements">
+        <p><strong>Achievements:</strong> List of achievements</p>
+        <p><strong>Interests:</strong> List of interests</p>
+        <p><strong>Projects:</strong> List of projects</p>
+      </div>
+    </div>
+    <div class="profile_box" id="profile_saranya" onclick="showModal('saranya_img')">
+      <img src="image2.jpg" alt="Saranya" id="saranya_img">
+      <div class="name">Saranya</div>
+      <div class="role">Vice President</div>
+      <div class="know-more" onclick="showDetails(event, 'saranya_achievements')">Know more</div>
+      <div class="achievements" id="saranya_achievements">
+        <p><strong>Achievements:</strong> List of achievements</p>
+        <p><strong>Interests:</strong> List of interests</p>
+        <p><strong>Projects:</strong> List of projects</p>
+      </div>
+    </div>
+    <div class="profile_box" id="profile_vice_president_2" onclick="showModal('vice_president_2_img')">
+      <img src="image2.jpg" alt="Vice President 2" id="vice_president_2_img">
+      <div class="name">Vice President 2 Name</div>
+      <div class="role">Vice President</div>
+      <div class="know-more" onclick="showDetails(event, 'vice_president_2_achievements')">Know more</div>
+      <div class="achievements" id="vice_president_2_achievements">
+        <p><strong>Achievements:</strong> List of achievements</p>
+        <p><strong>Interests:</strong> List of interests</p>
+        <p><strong>Projects:</strong> List of projects</p>
+      </div>
+    </div>
+    <div class="profile_box" id="profile_general_secretary" onclick="showModal('general_secretary_img')">
+      <img src="image2.jpg" alt="General Secretary" id="general_secretary_img">
+      <div class="name">General Secretary Name</div>
+      <div class="role">General Secretary</div>
+      <div class="know-more" onclick="showDetails(event, 'general_secretary_achievements')">Know more</div>
+      <div class="achievements" id="general_secretary_achievements">
+        <p><strong>Achievements:</strong> List of achievements</p>
+        <p><strong>Interests:</strong> List of interests</p>
+        <p><strong>Projects:</strong> List of projects</p>
+      </div>
+    </div>
+    <div class="profile_box" id="profile_joint_secretary" onclick="showModal('joint_secretary_img')">
+      <img src="image2.jpg" alt="Joint Secretary" id="joint_secretary_img">
+      <div class="name">Joint Secretary Name</div>
+      <div class="role">Joint Secretary</div>
+      <div class="know-more" onclick="showDetails(event, 'joint_secretary_achievements')">Know more</div>
+      <div class="achievements" id="joint_secretary_achievements">
+        <p><strong>Achievements:</strong> List of achievements</p>
+        <p><strong>Interests:</strong> List of interests</p>
+        <p><strong>Projects:</strong> List of projects</p>
+      </div>
+    </div>
+    <div class="profile_box" id="profile_treasurer" onclick="showModal('treasurer_img')">
+      <img src="image2.jpg" alt="Treasurer" id="treasurer_img">
+      <div class="name">Treasurer Name</div>
+      <div class="role">Treasurer</div>
+      <div class="know-more" onclick="showDetails(event, 'treasurer_achievements')">Know more</div>
+      <div class="achievements" id="treasurer_achievements">
+        <p><strong>Achievements:</strong> List of achievements</p>
+        <p><strong>Interests:</strong> List of interests</p>
+        <p><strong>Projects:</strong> List of projects</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="popup">
+    <button class="close" onclick="hidePopup()">✖</button>
+    <div id="popup_content"></div>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-content" id="modal-content">
+      <span class="close" onclick="hideModal()">✖</span>
+      <img id="modal-img" src="">
+    </div>
+  </div>
+
+  <script src="index.js">
+  </script>
+</body>
+</html>
