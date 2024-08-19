@@ -205,7 +205,7 @@ body {
         .back-box {
       padding: 10px;
       top: 20px;
-      left: -100px;
+      left: 3px;
     }
   }
 
@@ -225,6 +225,6 @@ body {
     .back-box {
       padding: 10px;
       top: 20px;
-      left: 1px;
+      left: 3px;
     }
   }
