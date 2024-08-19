@@ -110,15 +110,6 @@ body {
     text-decoration: underline;
   }
 
-  .achievements {
-    display: none;
-    text-align: left;
-    margin-top: 10px;
-  }
-
-  .achievements p {
-    margin: 5px 0;
-  }
 
   .popup {
     display: none;
@@ -209,6 +200,12 @@ body {
     .modal-content {
       width: 300px;
       height: 300px;
+    }
+
+        .back-box {
+      padding: 10px;
+      top: 20px;
+      left: 8px;
     }
   }
 
