@@ -1,0 +1,116 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full height */
+}
+
+/* Header Styles */
+.achievements-header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555; /* Dark background */
+    padding: 20px 0;
+    color: #fff;
+}
+
+.logodiv {
+    height: 5rem; 
+    width: 5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.logoimg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%; 
+}
+
+.container {
+   text-align: center; /* Centering text in container */
+   margin-left: 60px; /* Space for logo */
+}
+
+.achievements-header h1 {
+    font-size: 30px; 
+}
+
+.achievements-header h2 {
+    font-size: 25px; /* Slightly smaller for better hierarchy */
+}
+
+/* Achievements Section Styles */
+.achievements-section {
+   width: 100%;
+   padding: 20px 0; 
+   flex-grow: 1; /* Allow section to grow and take available space */
+}
+
+/* Grid Layout for Cards */
+.grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+   gap: 20px; 
+}
+
+/* Card Styles */
+.card {
+   background-color: #fff; 
+   border-radius: 10px; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px; 
+}
+
+.card h3 {
+   font-size: 22px; 
+}
+
+.card p {
+   font-size: 16px; 
+}
+
+/* Footer Styles */
+#footer {
+   width: 100vw; 
+   background-color: #ffffff; 
+   color: #393E46; 
+   text-align: center; 
+   padding: 20px 0; 
+   border-top: 3px solid #00ADB5; /* Accent border */
+}
+
+.footer-content {
+   max-width: 1200px; 
+   margin: auto;
+}
+
+.footer-content a {
+   color: #00ADB5; /* Accent color */
+   margin: 0 15px; 
+   text-decoration: none; 
+}
+
+.footer-content a:hover {
+   color: #393E46; /* Darker on hover */
+}
+
+.footer-content p {
+   margin-top: 10px; 
+}
