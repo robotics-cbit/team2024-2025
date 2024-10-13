@@ -25,7 +25,6 @@ header {
     display: none;
 }
 
-
 .logodiv {
     height: 5rem;
     width: 5rem;
@@ -43,7 +42,7 @@ header {
 
 @media (max-width: 768px) {
     .silver_hawk {
-        font-size: 1.8rem; /* Smaller text size on smaller screens */
+        font-size: 1.8rem; 
     }
 }
 
@@ -58,6 +57,27 @@ header {
 .welcome-text h1 {
     font-size: 2.5em; 
     color: #393E46; 
+}
+
+.register-button-container {
+    margin-right: 20px;
+}
+
+.register-btn {
+    position: absolute;
+    top: 65px;
+    right: 20px;
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #e64a19;
 }
 
 #sketch-board-con {
@@ -284,7 +304,7 @@ header {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    transform: rotate(35deg); /* Keep hand rotation */
+    transform: rotate(35deg); 
 }
 
 .hand::before {
