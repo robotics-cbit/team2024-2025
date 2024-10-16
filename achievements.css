@@ -1,0 +1,158 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f4f8; 
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh; 
+}
+
+.achievements-header {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #555; 
+   padding: 20px 0;
+   color: #fff;
+}
+
+.logodiv {
+   height: 5rem; 
+   width: 5rem; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   top: 10px;
+   left: 40px;
+}
+
+.logoimg {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   border-radius: 50%; 
+}
+
+@media (max-width: 768px) {
+   .logodiv {
+       padding-top: 5px;
+       height: 4rem;
+       width: 4rem;
+       top: 5px;
+       left: 10px;
+   }
+
+   .header h1 {
+       font-size: 1.5rem;
+   }
+
+   .header {
+       padding: 20px;
+   }
+}
+
+@media (max-width: 480px) {
+   .logodiv {
+       height: 3rem;
+       width: 3rem;
+       top: 5px;
+       left: 10px;
+   }
+
+   .header h1 {
+       font-size: 1.2rem;
+   }
+
+   .header {
+       padding: 10px;
+       flex-direction: column; /* Stack elements vertically on smaller screens */
+       justify-content: flex-start;
+   }
+
+   .header-text {
+       margin-top: 10px;
+       text-align: center;
+   }
+}
+
+
+
+.container {
+  text-align: center; 
+  margin-left: 60px; 
+}
+
+.achievements-header h1 {
+   font-size: 30px; 
+}
+
+.achievements-header h2 {
+   font-size: 25px; 
+}
+
+.achievements-section {
+  width: 100%;
+  padding: 20px 0; 
+  flex-grow: 1; 
+}
+
+.college-category {
+   margin-bottom: 30px;
+}
+
+.college-category h3 {
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+
+.college-list {
+   list-style-type: none; /* Removes default bullet points */
+   padding-left: 0; 
+}
+
+.college-list li {
+   background-color: #fff;
+   margin: 10px auto;
+   padding: 15px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   width: 80%;
+   font-size: 18px;
+   color: #333;
+   text-align: left;
+}
+
+#footer {
+  width: 100vw; 
+  background-color: #ffffff; 
+  color: #393E46; 
+  text-align: center; 
+  padding: 20px 0; 
+  border-top: 3px solid #00ADB5; 
+}
+
+.footer-content {
+  max-width: 1200px; 
+  margin: auto;
+}
+
+.footer-content a {
+  color: #00ADB5; 
+  margin: 0 15px; 
+  text-decoration: none; 
+}
+
+.footer-content a:hover {
+  color: #393E46; 
+}
+
+.footer-content p {
+  margin-top: 10px; 
+}
