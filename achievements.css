@@ -42,7 +42,7 @@ body {
 
 @media (max-width: 768px) {
    .logodiv {
-       padding-top: 5px;
+       padding-top: 25px;
        height: 4rem;
        width: 4rem;
        top: 5px;
