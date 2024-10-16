@@ -49,6 +49,49 @@ body {
     object-fit: contain;
     border-radius: 50%; 
 }
+
+@media (max-width: 768px) {
+    .logodiv {
+        padding-top: 15px;
+        height: 4rem;
+        width: 4rem;
+        top: 5px;
+        left: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logodiv {
+        height: 3rem;
+        width: 3rem;
+        top: 5px;
+        left: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.2rem;
+    }
+
+    .header {
+        padding: 10px;
+        flex-direction: column; 
+        justify-content: flex-start;
+    }
+
+    .header-text {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
 .event-gallery {
     text-align: center;
     padding: 20px;
