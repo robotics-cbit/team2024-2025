@@ -82,7 +82,7 @@ body {
 
     .header {
         padding: 10px;
-        flex-direction: column; /* Stack elements vertically on smaller screens */
+        flex-direction: column; 
         justify-content: flex-start;
     }
 
